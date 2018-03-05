@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="margintitle">10dp</dimen>
+<dimen name="margintopprocess">160dp</dimen>
+
+    <dimen name="margintext1bottom">160dp</dimen>
+    <dimen name="margintext1left">60dp</dimen>
+    <dimen name="text1size">45sp</dimen>
+    <dimen name="margintext2bottom">110dp</dimen>
+    <dimen name="margintext2left">60dp</dimen>
+    <dimen name="margintext3bottom">65dp</dimen>
+    <dimen name="margintext3left">60dp</dimen>
+    <dimen name="margin_bottom_mapimage">110dp</dimen>
+    <dimen name="margin_left_mapimage">5dp</dimen>
+    <dimen name="margin_bottom_callimage">65dp</dimen>
+    <dimen name="margin_left_callimage">5dp</dimen>
+<dimen name="margin_bottom_moto">245dp</dimen>
+    <dimen name="margin_left_moto">145dp</dimen>
+    <dimen name="marginbottom_face">245dp</dimen>
+    <dimen name="marginleft_face">115dp</dimen>
+    <dimen name="marginleft_url">60dp</dimen>
+    <dimen name="marginbottom_url">20dp</dimen>
+<dimen name="marginledt_website">5dp</dimen>
+    <dimen name="marginbottom_website">18dp</dimen>
+
+
+</resources>
