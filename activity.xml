@@ -1,0 +1,150 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nikki.helloandroid.MainActivity"
+    android:background="@color/appbackground">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/titlepic"
+    android:background="@color/colortitle"
+    android:layout_margin="@dimen/margintitle"
+    android:id="@+id/title"
+    />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/nanodegree"
+    android:layout_below="@id/title"
+    android:scaleType="centerCrop"
+    android:id="@+id/center"
+    />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/process"
+        android:layout_marginTop="@dimen/margintopprocess"
+        android:id="@+id/down"
+        />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/udacity_moto"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/margin_bottom_moto"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textColor="@color/colortitle"
+    android:layout_marginLeft="@dimen/margin_left_moto"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="@dimen/text1size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margintext1bottom"
+        android:layout_marginLeft="@dimen/margintext1left"
+        android:textColor="@color/colortitle"
+        android:fontFamily="android:fontFamily"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margintext2bottom"
+        android:layout_marginLeft="@dimen/margintext2left"
+        android:autoLink="map"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colortitle"
+        android:textColorLink="@color/colortitle"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margintext3left"
+        android:layout_marginBottom="@dimen/margintext3bottom"
+        android:autoLink="phone"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colortitle"
+        android:textColorLink="@color/colortitle"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colortitle"
+        android:autoLink="web"
+        android:textColorLink="@color/colortitle"
+        android:layout_marginLeft="@dimen/marginleft_url"
+        android:layout_marginBottom="@dimen/marginbottom_url"
+
+
+        />
+
+
+
+  <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_room_white_24dp"
+      android:background="@color/appbackground"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/margin_bottom_mapimage"
+      android:layout_marginLeft="@dimen/margin_left_mapimage"
+      />
+
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_settings_phone_white_24dp"
+    android:background="@color/appbackground"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="@dimen/margin_left_callimage"
+    android:layout_marginBottom="@dimen/margin_bottom_callimage"
+    />
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/face"
+    android:layout_alignParentBottom="true"
+    android:background="@color/appbackground"
+    android:layout_marginBottom="@dimen/marginbottom_face"
+    android:layout_marginLeft="@dimen/marginleft_face"
+    />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/website"
+        android:layout_alignParentBottom="true"
+        android:background="@color/appbackground"
+        android:layout_marginBottom="@dimen/marginbottom_website"
+        android:layout_marginLeft="@dimen/marginledt_website"
+
+
+        />
+
+
+</RelativeLayout>
